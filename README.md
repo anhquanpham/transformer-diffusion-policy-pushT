@@ -1,5 +1,7 @@
 # Transformer-Based Visuomotor Diffusion Imitation Learning for Robot Manipulation
 
+![Demo](./transformer-diffusion.gif)
+
 More details in project page: https://anhquanpham.github.io/projects/transformer-diffusion-immitation 
 
 Chi et al. (2023) introduced the Diffusion Policy framework, which extends Denoising Diffusion Probabilistic Models (DDPMs) to visuomotor policy learning. This framework models actions as sequential outputs, refining noisy samples into task-specific actions using a learned score function. While innovative, the original framework has limitations, including difficulty modeling long-term dependencies across sequential observations and actions.
